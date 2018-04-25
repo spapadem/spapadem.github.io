@@ -1,0 +1,328 @@
+/* ------------------------------------------------------------------------- */
+/* Master style file for screen media                                        */
+/* Michael Plexousakis, plex AT tem.uoc.gr                                   */
+/* ------------------------------------------------------------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 12px/1.5 "Lucida Grande", Verdana, Lucida, Arial, sans-serif;
+	text-align: center;
+	color: #505063;
+	background: #fff url(../img/bodybg.jpg) no-repeat top left;
+}
+
+/*-Links---------------------------------------------------------------------*/
+
+a:link    { color: #0561a5; text-decoration: none; }
+a:visited { color: #0561a5; text-decoration: none; }
+a:hover   { color: #980034; text-decoration: none; }
+a:active  { color: #980034; text-decoration: none; }
+a.currentlink  { color: #980034; text-decoration: none; font-weight: bold; }
+
+/*-Typography----------------------------------------------------------------*/
+
+h1 { font-size: 2.0em; font-weight: normal; }
+h2 { font-size: 1.7em; font-weight: normal; }
+h3 { font-size: 1.4em; font-weight: normal; }
+h4 { font-size: 1.2em; font-weight: normal; }
+h5 { font-size: 1.0em; font-weight: normal; }
+h6 { font-size: 0.8em; font-weight: normal; }
+
+strong { font-weight: bold; }
+pre { font-family: monospace; font-size: 1.0em; }
+superscript { font-size:0.75em; vertical-align: super; }
+
+/*-Page layout---------------------------------------------------------------*/
+
+#wrap {
+	margin: 0px auto;
+	padding: 0;
+	width: 96%;
+}
+
+#datediv {
+	margin: 0.25em 0 0 0;
+	padding: 0;
+	text-align: right;
+	font-size: 90%;
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#header h1 { margin: 10px 0 0 120px; padding: 0; }
+#header h2 { margin:    0 0 0 120px; padding: 0; }
+
+#langswitch {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+#langswitch a:hover,
+#langswitch a:active {
+	font-weight: bold;
+}
+
+#contentwrap {
+	margin: 10px 0 0 0;
+	padding: 0;
+	text-align: left;
+}
+
+#sidebar {
+	float: left;
+	width: 190px;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	/*border-bottom: 1px dashed #ccc;*/
+	text-align: left;
+}
+
+#mysidebar {
+	float: left;
+	width: 80px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#mysidebargr {
+	float: left;
+	width: 110px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#content {
+	margin-left: 190px;
+	padding-left: 20px;
+	text-align: justify;
+	border-top: 1px solid #ccc;
+}
+
+#content h2 { margin-top: 0; color: #980034; }
+#content h3 { color: #980034; }
+#content h4 { color: #980034; }
+
+img.imgFloatLeft {
+  float: left;
+  margin: 4px;
+  margin-right: 2ex;
+}
+
+/* Mise en page des tableaux */
+
+td.pub {
+  float: left;
+  width: 100%;
+  margin-bottom: 7px;
+	padding: 0;
+	background-color:#fcdbe4;
+}
+
+div.pubinfo {
+  padding: 4px;
+	float: left;
+	width: 85%;
+	text-align: justify;
+  margin-left: 30px;
+}
+
+div.publink {
+        float: right;
+        vertical-align:middle;
+				text-align: right;
+        clear: right;
+        padding-right: 5px;
+        padding-top: 5px;
+}
+
+
+#footer {
+	margin: 10px 0 0 0;
+	padding: 0;
+	font-size: 90%;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+#footer p { margin: 0.25em 0; }
+
+#leftfoot {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+#rightfoot {
+	margin-left: 50%;
+	text-align: right;
+}
+
+/*-The sidebar elements------------------------------------------------------*/
+
+#sidebar ul {
+	margin: 0;
+	padding: 0.5em 0;
+	border-bottom: 1px solid #ccc;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 1.8;
+	/*display: inline;*/
+}
+
+#sidebar li a:hover,
+#sidebar li a:active {
+	font-weight: bold;
+}
+
+#sidebar form {
+	margin: 0;
+	padding: 0 0 1.0em 0;
+}
+
+#sidebar form label {
+	font-size: 90%;
+	color: #505063;
+}
+
+#sidebar form input {
+	font-size: 90%;
+	color: #505063;
+	border-width: 1px;
+}
+
+/*-Content elements----------------------------------------------------------*/
+
+#content ul {
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+
+#contact dt {
+	color: #980034;
+}
+
+#contact dd {
+	padding: 0.25em 0;
+}
+
+/*-News formatting-----------------------------------------------------------*/
+
+ul.newslist li {
+	padding-bottom: 0.25em;
+	margin-bottom: 1.0em;
+}
+
+ul.newslist ul li {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+p.timestamp {
+	margin: 4px 0 0 0;
+	padding: 0;
+	text-align: right;
+	font-size: 90%;
+	color: #999;
+	border-top: 1px solid #ddd;
+}
+
+/*-Directory formatting------------------------------------------------------*/
+
+.directory {
+	width: 99%;
+	margin-top: 1.5em;
+	border-collapse: collapse;
+}
+
+.directory tbody td {
+	padding-left: 4px;
+	border-bottom: 4px solid #fff;
+	border-right: 4px solid #fff;
+}
+
+.directory tbody td.ltd {
+	width: 30%;
+}
+
+.directory thead td {
+	text-align: left;
+	font-size: 1.4em;
+	color: #980034;
+}
+
+.directory tfoot td {
+	font-size: 90%;
+	text-align: right;
+}
+
+/*-Schedule formatting-------------------------------------------------------*/
+
+table.sched {
+	width: 99%;
+	border-collapse: collapse;
+}
+
+table.sched tbody td {
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+table.sched thead td {
+	text-align: left;
+	color: #980034;
+}
+
+table.sched tfoot td {
+	text-align: right;
+	border-bottom: 1px solid #fff;
+}
+
+table.sched tbody td.reserved {
+	background: #f1f0f8;
+}
+
+/*-The sitemap list----------------------------------------------------------*/
+
+#sitelist {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#sitelist li {
+	list-style: none;
+}
+
+#sitelist li ul {
+	margin: 0 0 0 5px;
+	padding: 0 0 0 15px;
+	font-size: 80%;
+	border-left: 1px solid #ccc;
+}
+
+/*-Bug fixing----------------------------------------------------------------*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
