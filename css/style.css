@@ -317,18 +317,18 @@ nav[role="navigation"] ul li a em {
 
 .module-main {
     float: left;
-    width: 53%;
+    width: 60%;
     padding: 0 50px 0 0;
 }
 
 .module-side {
     float: right;
-    width: 47%;
+    width: 40%;
 }
 
 .module-sidel {
     float: right;
-    width: 47%;
+    width: 40%;
 }
 .module-side > h2 { margin-top: 0; }
 
