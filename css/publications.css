@@ -17,8 +17,8 @@ td.pub {
 /*#pub p { margin: 0.25em 0; }*/
 .pubinfo {
         padding: 4px;
-	float: right;
-	width: 87%;
+	float: left;
+	width: 80%;
 	text-align: justify;
         margin-left: 10px;
 }
