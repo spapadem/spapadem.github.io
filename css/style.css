@@ -57,7 +57,7 @@ table {
 /*-Float-clearing-------------------------------------------------------------------------*/
 
 #content:after,
-header[role="banner"]:after,
+header[role="banner"]:after,More dark mo
 nav[role="navigation"]:after,
 .group:after {
     content: ".";
@@ -367,4 +367,3 @@ nav[role="navigation"] ul li a em {
 .module-side h2,
 .module-side p { text-align: right; }
 .module-sidel p { text-align: left; }
-
