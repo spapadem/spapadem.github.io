@@ -57,4 +57,36 @@ body.dark-mode h2 {
     color: #e0e0e0; /* Dark mode font color */
 }
 
+.pub:nth-child(odd) {
+    background-color: #f0f0f0; /* Light mode background color */
+}
+
+.pub:nth-child(even) {
+    background-color: #e0e0e0; /* Light mode background color */
+}
+
+body.dark-mode .pub:nth-child(odd) {
+    background-color: #1a1a1a; /* Dark mode background color */
+}
+
+body.dark-mode .pub:nth-child(even) {
+    background-color: #2a2a2a; /* Dark mode background color */
+}
+
+.pub_grey {
+    background-color: #beb5b5; /* Light mode background color */
+}
+
+body.dark-mode .pub_grey {
+    background-color: #555555; /* Dark mode background color */
+}
+
+.pub_pink {
+    background-color: #83102e; /* Light mode background color */
+}
+
+body.dark-mode .pub_pink {
+    background-color: #e79696; /* Dark mode background color */
+}
+
 
