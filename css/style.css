@@ -367,3 +367,41 @@ nav[role="navigation"] ul li a em {
 .module-side h2,
 .module-side p { text-align: right; }
 .module-sidel p { text-align: left; }
+
+/* ...existing code... */
+
+.jpubs {
+    background-color: #f0f0f0; /* Light mode background color */
+}
+
+body.dark-mode .jpubs {
+    background-color: #333333; /* Dark mode background color */
+}
+
+.cpubs {
+    background-color: #e0e0e0; /* Light mode background color */
+}
+
+body.dark-mode .cpubs {
+    background-color: #444444; /* Dark mode background color */
+}
+
+/* ...existing code... */
+
+.pub {
+    background-color: #fcdbe4; /* Light mode background color */
+}
+
+body.dark-mode .pub {
+    background-color: #1a1a1a; /* Dark mode background color */
+}
+
+.pubinfo {
+    background-color: #ffffff; /* Light mode background color */
+}
+
+body.dark-mode .pubinfo {
+    background-color: #2a2a2a; /* Dark mode background color */
+}
+
+/* ...existing code... */
