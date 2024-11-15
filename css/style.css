@@ -405,3 +405,10 @@ body.dark-mode .pubinfo {
 }
 
 /* ...existing code... */
+
+body.dark-mode h1,
+body.dark-mode h2 {
+    color: #e0e0e0; /* Dark mode font color */
+}
+
+/* ...existing code... */
