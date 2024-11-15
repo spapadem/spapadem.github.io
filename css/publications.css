@@ -37,4 +37,19 @@ td.pub {
     font-style: italic;
 }
 
+body.dark-mode .pub-table td.pub {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.dark-mode .pub-table td.pub:nth-child(odd) {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.dark-mode .pub-table td.pub:nth-child(even) {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
 

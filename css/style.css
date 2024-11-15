@@ -77,6 +77,38 @@ body {
     background-color: #f5f4f2;
 }
 
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode a {
+    color: #bb86fc;
+}
+
+body.dark-mode header[role="banner"],
+body.dark-mode footer[role="contentinfo"] {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode nav[role="navigation"] ul li a strong {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+body.dark-mode nav[role="navigation"] ul li a:hover strong,
+body.dark-mode nav[role="navigation"] ul li.current a strong {
+    color: #e0e0e0;
+}
+
+body.dark-mode nav[role="navigation"] ul li a em {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+body.dark-mode nav[role="navigation"] ul li a:hover em,
+body.dark-mode nav[role="navigation"] ul li.current a em {
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .wrap {
     margin: 0 auto;
     padding: 0 25px;
