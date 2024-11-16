@@ -38,17 +38,17 @@ td.pub {
 }
 
 body.dark-mode .pub-table td.pub {
-    background-color: #1a1a1a;
+    background-color: #3a3a3a; /* Lighter dark grey background color */
     color: #ffffff;
 }
 
 body.dark-mode .pub-table td.pub:nth-child(odd) {
-    background-color: #1a1a1a;
+    background-color: #3a3a3a; /* Lighter dark grey background color */
     color: #ffffff;
 }
 
 body.dark-mode .pub-table td.pub:nth-child(even) {
-    background-color: #2a2a2a;
+    background-color: #4a4a4a; /* Lighter dark grey background color */
     color: #ffffff;
 }
 
@@ -62,15 +62,15 @@ body.dark-mode h2 {
 }
 
 .pub:nth-child(even) {
-    background-color: #ec4949; /* Light mode background color */
+    background-color: #f5e6cc; /* Night light mode background color */
 }
 
 body.dark-mode .pub:nth-child(odd) {
-        background-color: #2a2a2a; /* Dark mode background color */
+    background-color: #4a4a4a; /* Lighter dark grey background color */
 }
 
 body.dark-mode .pub:nth-child(even) {
-    background-color: #2a2a2a; /* Dark mode background color */
+    background-color: #4a4a4a; /* Lighter dark grey background color */
 }
 
 .pub_grey {
@@ -78,7 +78,7 @@ body.dark-mode .pub:nth-child(even) {
 }
 
 body.dark-mode .pub_grey {
-    background-color: #555555; /* Dark mode background color */
+    background-color: #4a4a4a; /* Lighter dark grey background color */
 }
 
 .pub_pink {
@@ -86,7 +86,7 @@ body.dark-mode .pub_grey {
 }
 
 body.dark-mode .pub_pink {
-        background-color: #555555; /* Dark mode background color */
+    background-color: #4a4a4a; /* Lighter dark grey background color */
 }
 
 

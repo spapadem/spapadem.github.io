@@ -74,11 +74,11 @@ body {
     font-size: 100%;
     line-height: 1;
     color: #4e443c;
-    background-color: #f5f4f2;
+    background-color: #f5e6cc; /* Night light mode background color */
 }
 
 body.dark-mode {
-    background-color: #121212;
+    background-color: #2e2e2e; /* Dark grey background color */
     color: #e0e0e0;
 }
 
