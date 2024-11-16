@@ -222,25 +222,23 @@ nav[role="navigation"] ul li.current a em {
 
 /*-The content elements-------------------------------------------------------------------*/
 
-
- .circle {
-                float: left;
-                margin: 0;
-                padding: 0;
-                width: 64px;
-                height: 64px;
-                font-size: 1.5em;
-                line-height: 64px;
-                letter-spacing: 0.05em;
-                text-align: center;
-                background-color: #3397d4;
-                -webkit-border-radius: 50%;
-                -moz-border-radius: 50%;
-                border-radius: 50%;
-        }
-div.circle a:link, div.circle a:visited { color: #fff;    }
+.circle {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 64px;
+    height: 64px;
+    font-size: 1.5em;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    background-color: #3397d4;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+div.circle a:link, div.circle a:visited { color: #fff; }
 div.circle a:hover, div.circle a:active { color: #000000; }
-
 
 h1 {
     margin: 0 0 1em 0;
@@ -388,63 +386,9 @@ body.dark-mode .cpubs {
 
 /* ...existing code... */
 
-.pub {
-    background-color: #fcdbe4; /* Light mode background color */
-}
-
-body.dark-mode .pub {
-    background-color: #1a1a1a; /* Dark mode background color */
-}
-
-.pubinfo {
-    background-color: #e0e0e0; /* Light mode background color */
-}
-
-body.dark-mode .pubinfo {
-    background-color: #1a1a1a; /* Dark mode background color */
-}
-
-/* ...existing code... */
-
-.pub:nth-child(odd) {
-    background-color: #f0f0f0; /* Light mode background color */
-}
-
-.pub:nth-child(even) {
-    background-color: #e0e0e0; /* Light mode background color */
-}
-
-body.dark-mode .pub:nth-child(odd) {
-    background-color: #1a1a1a; /* Dark mode background color */
-}
-
-body.dark-mode .pub:nth-child(even) {
-    background-color: #2a2a2a; /* Dark mode background color */
-}
-
-/* ...existing code... */
-
 body.dark-mode h1,
 body.dark-mode h2 {
     color: #e0e0e0; /* Dark mode font color */
-}
-
-/* ...existing code... */
-
-.pub_grey {
-    background-color: #beb5b5; /* Light mode background color */
-}
-
-body.dark-mode .pub_grey {
-    background-color: #555555; /* Dark mode background color */
-}
-
-.pub_pink {
-    background-color: #83102e; /* Light mode background color */
-}
-
-body.dark-mode .pub_pink {
-    background-color: #e79696; /* Dark mode background color */
 }
 
 /* ...existing code... */
