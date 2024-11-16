@@ -57,7 +57,7 @@ table {
 /*-Float-clearing-------------------------------------------------------------------------*/
 
 #content:after,
-header[role="banner"]:after,More dark mo
+header[role="banner"]:after,
 nav[role="navigation"]:after,
 .group:after {
     content: ".";
@@ -397,11 +397,11 @@ body.dark-mode .pub {
 }
 
 .pubinfo {
-    background-color: #ffffff; /* Light mode background color */
+    background-color: #e0e0e0; /* Light mode background color */
 }
 
 body.dark-mode .pubinfo {
-    background-color: #2a2a2a; /* Dark mode background color */
+    background-color: #1a1a1a; /* Dark mode background color */
 }
 
 /* ...existing code... */
